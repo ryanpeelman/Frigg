@@ -1,0 +1,50 @@
+
+$border-color: #f2f2f2;
+$offWhite: #efefef;
+$lt-grey: #f2f2f2;
+$ltmd-grey: #d9d9d9;
+$med-grey: #999;
+$dk-grey: #595959;
+$lt-black: #444;
+$lt-orange: #fcb515;
+$lt-blue: #297dfd;
+$dk-green: #00AD50;
+$dk-blue: #065280;
+$dk-blue2: #377499;
+$dk-blue3: #2268d4;
+$dk-orange: #ff530d;
+$hoverColor: darken($lt-blue, 10%);
+$salesforceBlueGray: #B2C4DA;
+$icons: #b5b5b5;
+$lt-purple: #4B4586;
+
+@import 'styles/_ApplicationTitleComponent.scss';
+@import 'styles/_ExploreView.scss';
+@import 'styles/_HomeView.scss';
+@import 'styles/_NavigationComponent.scss';
+@import 'styles/_PageNavigatorComponent.scss';
+@import 'styles/_WelcomeComponent.scss';
+
+html { 
+  background: #F7F8FA;
+  width:100%;
+  height: 100%;
+  display: table;
+}
+
+body {
+  width:100%;
+  display:table-cell;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root, .App, .ApplicationContainer {
+	height: 100%;
+}

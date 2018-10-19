@@ -1,0 +1,24 @@
+
+$backgroundColor: $ltmd-grey;
+$cardBorderColor: $med-grey;
+$cardBackgroundColor: $lt-grey;
+$cardForegroundColor: $lt-black;
+
+.ExploreView {    
+    padding: 20px;
+    height: 90vh;
+
+    .document {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        background-color: $backgroundColor;
+        
+        .section {
+            border: 1px solid $cardBorderColor;
+            background-color: $cardBackgroundColor;
+            color: $cardForegroundColor;
+            height: 200px;
+        }
+    }
+}

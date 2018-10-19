@@ -1,0 +1,21 @@
+
+$backgroundColor: $ltmd-grey;
+$cardBorderColor: $med-grey;
+$cardBackgroundColor: $lt-grey;
+$cardForegroundColor: $lt-black;
+
+.HomeView {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background-color: $backgroundColor;
+    padding: 20px;
+    height: 90vh;
+    
+    .card {
+        border: 1px solid $cardBorderColor;
+        background-color: $cardBackgroundColor;
+        color: $cardForegroundColor;
+        height: 200px;
+    }
+}
